@@ -1,0 +1,29 @@
+.header {
+  padding: 5px 100px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  max-width: 700px;
+  width: 100%;
+}
+
+.header-nav-birds {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+.header-nav-birds li {
+  line-height: 40px;
+  cursor: pointer;
+  transition: color 0.4s;
+  padding: 5px;
+}
+
+.header-nav-birds li:hover {
+  color: var(--color2)
+}

@@ -1,0 +1,31 @@
+.header-logo {
+  cursor: pointer;
+  height: 50px;
+}
+
+.header-logo-icon {
+  width: 50px;
+  height: 50px;
+  fill: var(--color1);
+  transition: fill 0.5s;
+}
+
+.header-logo-icon:hover {
+  fill: var(--color2);
+}
+
+.footer-rs-logo {
+  cursor: pointer;
+  height: 50px;
+}
+
+.footer-rs-icon {
+  width: 100px;
+  height: 50px;
+  fill: var(--color1);
+  transition: fill 0.5s;
+}
+
+.footer-rs-icon:hover {
+  fill: var(--color2);
+}
