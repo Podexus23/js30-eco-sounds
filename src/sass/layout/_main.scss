@@ -1,5 +1,6 @@
-main {
+.main {
   background-image: url("../../assets/img/drozd.jpg");
+  transition: background-image 1s;
   height: 100%;
   display: flex;
   align-items: center;

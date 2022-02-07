@@ -2,3 +2,8 @@ body {
   font-family: sans-serif;
   color: var(--color1);
 }
+
+.active {
+  color: var(--color2);
+  fill: var(--color2);
+}
